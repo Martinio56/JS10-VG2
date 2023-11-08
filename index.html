@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Gjette Spill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>RGB Gjette Spill</h2>
+    <h1 id="rgbValue">RGB(0, 0, 0)</h1>
+    <button id="startGame">Start Game</button>
+<div class="column">
+    <div class="row">
+        <div onclick="checkColor('one')" class="div" id="one"></div>
+        <div onclick="checkColor('two')" class="div" id="two"></div>
+        <div onclick="checkColor('three')" class="div" id="three"></div>
+    </div>
+    <div class="row">
+        <div onclick="checkColor('four')" class="div" id="four"></div>
+        <div onclick="checkColor('five')" class="div" id="five"></div>
+        <div onclick="checkColor('six')" class="div" id="six"></div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
